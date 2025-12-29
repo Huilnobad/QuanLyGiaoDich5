@@ -15,4 +15,8 @@ public class ListGD {
     public GiaoDich getGiaoDich(int i) {
         return gd[i];
     }
+
+    public quanlygiaodichapp5.BCE.GiaoDich GiaoDich(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

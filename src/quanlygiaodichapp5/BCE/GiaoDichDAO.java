@@ -6,7 +6,7 @@ import quanlygiaodichapp5.provider.*;
 
 public class GiaoDichDAO {
 
-    private ListGD listGD;
+    private final ListGD listGD;
 
     public GiaoDichDAO() {
         listGD = new ListGD();
@@ -30,7 +30,7 @@ public class GiaoDichDAO {
         final double MOT_TY = 1_000_000_000;
 
         for (int i = 0; i < listGD.getCountGD(); i++) {
-            GiaoDich gd = listGD.getGiaoDich(i);
+            GiaoDich gd = listGD.GiaoDich(i);
             if (gd != null && gd.getDonGia() > MOT_TY) {
                 result.add(gd);
             }

@@ -10,11 +10,11 @@ public class XuatGDTren1TyUI {
         List<quanlygiaodichapp5.BCE.GiaoDich> ds = control.getDanhSach();
 
         if (ds.isEmpty()) {
-            System.out.println("Khong co giao dich nao > 1 ty");
+            System.out.println("KHONG CO GIAO DICH NAO > 1 TY :");
             return;
         }
 
-        System.out.println("Danh sach giao dich > 1 ty:");
+        System.out.println("DANH SACH GIAO DICH >1 TY :");
         for (quanlygiaodichapp5.BCE.GiaoDich gd : ds) {
             System.out.println(gd);
         }

@@ -8,10 +8,12 @@ package quanlygiaodichapp5.BCE;
  *
  * @author caochien
  */
-public class GiaoDich {
-
-    double getDonGia() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
+public class ReponseDTO {
+    public int maGD;
+    public String ngayGD;
+    public double donGia;
+    public int soLuong;
+    public double thanhTien;
+    public String loaiGiaoDich; 
+    public String message;      
 }

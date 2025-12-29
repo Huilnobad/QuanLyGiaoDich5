@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GiaoDich {
     public int maGD;
-    protected String ngayGD;
+    public String ngayGD;
     public double donGia;
     public int soLuong;
     public double thanhTien;
